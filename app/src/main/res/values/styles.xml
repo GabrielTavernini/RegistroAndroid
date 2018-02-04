@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- My Styles and Themes -->
+    <style name="MarksButton" parent="Base.TextAppearance.AppCompat.Button" >
+        <item name="backgroundTint">@color/Marks</item>
+    </style>
+
+    <style name="AverageButton" parent="Base.TextAppearance.AppCompat.Button" >
+        <item name="backgroundTint">@color/Average</item>
+    </style>
+
+    <style name="ArgumentsButton" parent="Base.TextAppearance.AppCompat.Button" >
+        <item name="backgroundTint">@color/Arguments</item>
+    </style>
+
+    <style name="ExitButton" parent="Base.TextAppearance.AppCompat.Button" >
+        <item name="backgroundTint">@color/Exit</item>
+    </style>
+
+    <style name="AppTheme.MarksTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Marks</item>
+    </style>
+
+    <style name="AppTheme.AverageTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Average</item>
+    </style>
+
+    <style name="AppTheme.ArgumentsTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Arguments</item>
+    </style>
+</resources>

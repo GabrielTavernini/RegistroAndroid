@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabriel.myapplication.Menu"
+    android:screenOrientation="portrait">
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/MarksButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/full_background"
+        android:drawableTop="@drawable/ic_graduation_hat"
+        android:onClick="onVoti"
+        android:paddingTop="15dp"
+        android:text="@string/Voti"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/AverageButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/full_background"
+        android:drawableTop="@drawable/ic_risorsa_1"
+        android:onClick="onMedie"
+        android:paddingTop="15dp"
+        android:text="@string/Medie"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/ExitButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/full_background"
+        android:drawableTop="@drawable/ic_exit"
+        android:onClick="onEsci"
+        android:paddingTop="15dp"
+        android:text="@string/Esci"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/ArgumentsButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/full_background"
+        android:drawableTop="@drawable/ic_list"
+        android:onClick="onArgomenti"
+        android:paddingTop="15dp"
+        android:text="@string/Argomenti"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+</android.support.constraint.ConstraintLayout>

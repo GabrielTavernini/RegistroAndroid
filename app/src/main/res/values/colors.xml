@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#999999</color>
+    <color name="Marks">#0d1f2d</color>
+    <color name="MarksDark">#0b1c28</color>
+    <color name="Average">#2E5266</color>
+    <color name="AverageDark">#294a5b</color>
+    <color name="Arguments">#266DD3</color>
+    <color name="ArgumentsDark">#2366c4</color>
+    <color name="Exit">#DB5461</color>
+
+</resources>
